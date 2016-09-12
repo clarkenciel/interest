@@ -1,0 +1,21 @@
+{
+  "name": "interest",
+  "version": "1.0.0",
+  "description": "graphing my student loans :(",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build-app": "node utils/build_app.js",
+    "build-server": "babel --presets es2015 -o server/serve.js server/server.js ",
+    "start": "node server/serve.js"
+  },
+  "author": "danny clarke",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1"
+  }
+}
