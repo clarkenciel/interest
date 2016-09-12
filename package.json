@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "graphing my student loans :(",
   "main": "index.js",
+  "repository": "https://github.com/clarkenciel/interest",
   "scripts": {
     "test": "mocha",
     "build-app": "node utils/build_app.js",
