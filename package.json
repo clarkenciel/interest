@@ -8,6 +8,7 @@
     "test": "mocha",
     "build-app": "node utils/build_app.js",
     "build-server": "babel --presets es2015 -o server/serve.js server/server.js ",
+    "make-links": "node utils/links.js",
     "start": "node server/serve.js"
   },
   "author": "danny clarke",
@@ -16,7 +17,14 @@
     "d3": "^4.2.2"
   },
   "devDependencies": {
+    "browserify": "*",
+    "babelify": "*",
+    "babel": "*",
     "babel-preset-es2015": "^6.14.0",
-    "babel-preset-react": "^6.11.1"
+    "babel-preset-react": "^6.11.1",
+    "react": "*",
+    "react-dom": "*",
+    "mocha": "*",
+    "chai": "*"
   }
 }
